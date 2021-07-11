@@ -1,26 +1,34 @@
 export const projects = [
   {
+    title: "Reddit Minimal",
+    subtitle: "Redux & Reddit API",
+    description:
+      "A minimal version of Reddit where users can select topics, view posts on that topic as well as read comments from other Reddit users.",
+    image: "./reddit.png",
+    link: "https://reddit-minimal-qnn.netlify.app/",
+  },
+  {
     title: "Jammming",
     subtitle: "React & Spotify API",
     description:
       "A music app that uses the Spotify API to search for songs, listen to previews, and add new playlists to your spotify account.",
-    image: "./project-1.gif",
+    image: "./jammming.png",
     link: "http://jammming-qnn.surge.sh/",
   },
   {
-    title: "Reddit Minimal",
-    subtitle: "Redux & Reddit API",
+    title: "Narutopedia",
+    subtitle: "React & Redux Toolkit",
     description:
-      "A minimal version of Reddit where users can view posts by subreddits as well as read comments.",
-    image: "./project-2.gif",
-    link: "https://reddit-minimal-qnn.netlify.app/",
+      "A website provides information about Naruto's characters - the famous Japanese manga series. You can choose to view an article's details in the list.",
+    image: "./narutopedia.png",
+    link: "https://narutopedia-qnn.netlify.app/",
   },
   {
     title: "Matching Memory",
     subtitle: "React & Redux",
     description:
-      "A memory game consists of 12 cards. Flip the cards to find matching pairs of words.",
-    image: "./project-3.gif",
+      "A classic memory game consists of 12 cards. You need to flip the cards one by one, memorize their positions to find the matching pairs.",
+    image: "./memory.png",
     link: "https://matching-memory-qnn.netlify.app/",
   },
   {
@@ -32,20 +40,12 @@ export const projects = [
     link: "https://codecademy-store-qnn.netlify.app/",
   },
   {
-    title: "Expense Tracker",
-    subtitle: "React Hook",
+    title: "Flashcard Quizzes",
+    subtitle: "React & Redux Toolkit",
     description:
-      "A budgeting and expense tracking app allows you to set budgets for various categories, add and track transactions.",
-    image: "./project-5.gif",
-    link: "https://expense-tracker-qnn.netlify.app/",
-  },
-  {
-    title: "Wanderlust",
-    subtitle: "jQuery & HTTP Request",
-    description:
-      "A website to look up weather information and travel destinations using Foursquare and OpenWeather API.",
-    image: "./project-6.gif",
-    link: "https://wanderlust-qnn.netlify.app",
+      "A flashcard quizzes app where where you can not only participate in answering questions, but also create your own topics and questions.",
+    image: "./quizzes.png",
+    link: "https://flashcard-quizzes-qnn.netlify.app/topics",
   },
 ];
 

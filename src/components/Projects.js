@@ -1,18 +1,16 @@
-import { CodeIcon } from "@heroicons/react/solid";
+import { TerminalIcon, FingerPrintIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
 export function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+      <div className="container px-20 py-10 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-10">
+          <TerminalIcon className="mx-auto inline-block w-10 mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
@@ -20,15 +18,16 @@ export function Projects() {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4"
-              target="_blank">
+              target="_blank"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full z-10 h-full object-cover object-center opacity-0 hover:opacity-100"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
+                <div className="px-8 py-10 relative w-full border-4 border-gray-800 bg-gray-900 ">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-yellow-300 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
@@ -39,6 +38,18 @@ export function Projects() {
               </div>
             </a>
           ))}
+        </div>
+      </div>
+      <div id="about" className="py-10 bg-gray-800">
+        <FingerPrintIcon className="mx-auto text-center w-10 mb-4" />
+        <h1 className="sm:text-4xl text-center text-3xl font-medium title-font mb-4 text-white">
+          About Me
+        </h1>
+        <div className="flex flex-wrap justify-center">
+          <img
+            className="p-10 w-2/3 lg:w-2/3 md:w-full sm:w-full"
+            src="./about.png"
+          />
         </div>
       </div>
     </section>
