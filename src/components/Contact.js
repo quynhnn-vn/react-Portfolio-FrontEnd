@@ -1,24 +1,37 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
-import { apiKey } from "../emailKey";
+// import emailjs from "emailjs-com";
+// import { apiKey } from "../emailKey";
 
 export function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const encode = (data) => {
+    return Object.keys(data).map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])).join("&");
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(`gmail`, apiKey.TEMPLATE_ID, e.target, apiKey.USER_ID)
-      .then(
-        (result) => {
-          alert("Message sent, I will get back to you shortly", result.text);
-        },
-        (error) => {
-          alert("An error occurred, Please try again", error.text);
-        }
-      );
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", name, email, message }),
+    })
+    .then(() => alert("Message sent, I will get back to you shortly."))
+    .catch((error) => alert(error));
   }
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   emailjs
+  //     .sendForm(`gmail`, apiKey.TEMPLATE_ID, e.target, apiKey.USER_ID)
+  //     .then(
+  //       (result) => {
+  //         alert("Message sent, I will get back to you shortly", result.text);
+  //       },
+  //       (error) => {
+  //         alert("An error occurred, Please try again", error.text);
+  //       }
+  //     );
+  // }
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -77,7 +90,7 @@ export function Contact() {
               id="name"
               name="name"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              // onChange={(e) => setName(e.target.value)}
+              onChange={(e) => setName(e.target.value)}
             />
           </div>
           <div className="relative mb-4">
@@ -89,7 +102,7 @@ export function Contact() {
               id="email"
               name="email"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              // onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className="relative mb-4">
@@ -103,7 +116,7 @@ export function Contact() {
               id="message"
               name="message"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              // onChange={(e) => setMessage(e.target.value)}
+              onChange={(e) => setMessage(e.target.value)}
             />
           </div>
           <button
