@@ -11,7 +11,7 @@ export const projects = [
     title: "Jammming",
     subtitle: "React & Spotify API",
     description:
-      "A music app based on the Spotify API to search for songs, listen to previews, and create new playlists to your spotify account.",
+      "A music app based on the Spotify API to search for songs, listen to previews, and create new playlists to your Spotify account.",
     image: "./jammming.png",
     link: "http://jammming-qnn.surge.sh/",
   },
