@@ -48,7 +48,7 @@ export function Projects() {
         <div className="flex flex-wrap justify-center">
           <img
             className="p-10 w-2/3 lg:w-2/3 md:w-full sm:w-full"
-            src="./about.png"
+            src="./about.png" alt=""
           />
         </div>
       </div>

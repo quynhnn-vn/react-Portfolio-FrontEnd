@@ -9,7 +9,7 @@ export function Contact() {
           Contact Me
         </h1>
       <div className="container px-5 py-10 mx-auto flex items-center justify-center">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-36 relative">
+        <div className="lg:w-2/3 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 lg:p-36 p-20 relative">
           <iframe
             width="100%"
             height="100%"
@@ -36,10 +36,10 @@ export function Contact() {
                 EMAIL
               </h2>
               <a
-                className="text-indigo-400 leading-relaxed"
+                className="text-yellow-300 leading-relaxed"
                 href="mailto:nnquynh.0111@gmail.com"
               >
-                nnquynh.0111@email.com
+                nnquynh.0111@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
