@@ -1,5 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
-import CV from "../CV.pdf";
+import CV from "../CV-NhuQuynhNGUYEN.pdf";
 import React from "react";
 
 export function NavBar() {
@@ -8,7 +8,7 @@ export function NavBar() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font text-black mb-4 md:mb-0">
           <a href="#desciption" className="ml-3 text-2xl">
-            Quynh NGUYEN
+            Nhu Quynh NGUYEN
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-black justify-center">

@@ -9,7 +9,7 @@ export function Projects() {
         <div className="flex flex-col w-full mb-10">
           <TerminalIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white">
-            Apps I've Built
+            Recent Work
           </h1>
         </div>
         <div className="flex flex-wrap -m-4">
