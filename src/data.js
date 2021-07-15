@@ -8,6 +8,14 @@ export const projects = [
     link: "https://reddit-minimal-qnn.netlify.app/",
   },
   {
+    title: "Cuisine at Home",
+    subtitle: "React Router & Spoonacular API",
+    description:
+      "A website provides recipes where users can randomly browse recipes by topics and search for recipes by keyword.",
+    image: "./cuisine.png",
+    link: "https://cuisine-at-home-qnn.netlify.app/",
+  },
+  {
     title: "Jammming",
     subtitle: "React & Spotify API",
     description:
@@ -38,14 +46,6 @@ export const projects = [
       "A flashcard quizzes app where you can not only participate in answering questions, but also create your own topics and questions.",
     image: "./quizzes.png",
     link: "https://flashcard-quizzes-qnn.netlify.app/",
-  },
-  {
-    title: "Codecademy Store",
-    subtitle: "React & Redux",
-    description:
-      "A sales site that mimics Codecademy’s online store, where you can view products, add products to your cart, search for products and convert currencies.",
-    image: "./store.png",
-    link: "https://codecademy-store-qnn.netlify.app/",
   },
 ];
 
