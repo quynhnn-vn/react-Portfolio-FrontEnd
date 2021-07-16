@@ -8,12 +8,12 @@ export const projects = [
     link: "https://reddit-minimal-qnn.netlify.app/",
   },
   {
-    title: "Cuisine at Home",
+    title: "Make Your Meal",
     subtitle: "React Router & Spoonacular API",
     description:
-      "A website provides recipes where users can randomly browse recipes by topics and search for recipes by keyword.",
+      "A website provides cooking recipes where users can randomly browse recipes by topics and search for recipes by keyword.",
     image: "./cuisine.png",
-    link: "https://cuisine-at-home-qnn.netlify.app/",
+    link: "https://make-your-meal-qnn.netlify.app/",
   },
   {
     title: "Jammming",
