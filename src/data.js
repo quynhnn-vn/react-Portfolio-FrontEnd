@@ -1,13 +1,5 @@
 export const projects = [
   {
-    title: "Reddit Minimal",
-    subtitle: "Redux & Reddit API",
-    description:
-      "A minimal version of Reddit, where users can select diffrents topics, view posts and read comments from other Reddit's users.",
-    image: "./reddit.png",
-    link: "https://reddit-minimal-qnn.netlify.app/",
-  },
-  {
     title: "Make Your Meal",
     subtitle: "React Router & Spoonacular API",
     description:
@@ -16,12 +8,20 @@ export const projects = [
     link: "https://make-your-meal-qnn.netlify.app/",
   },
   {
+    title: "Reddit Minimal",
+    subtitle: "Redux & Reddit API",
+    description:
+      "A minimal version of Reddit, where users can select diffrents topics, view posts and read comments from other Reddit's users.",
+    image: "./reddit.png",
+    link: "https://reddit-minimal-qnn.netlify.app/",
+  },
+  {
     title: "Jammming",
     subtitle: "React & Spotify API",
     description:
       "A music app based on the Spotify API to search for songs, listen to previews, and create new playlists to your Spotify account.",
     image: "./jammming.png",
-    link: "http://jammming-qnn.surge.sh/",
+    link: "https://jammming-qnn.netlify.app/",
   },
   {
     title: "Narutopedia",
