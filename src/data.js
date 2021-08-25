@@ -8,6 +8,13 @@ export const projects = [
     link: "https://make-your-meal-qnn.netlify.app/",
   },
   {
+    title: "Game of Thrones Character Network",
+    subtitle: "React & D3js",
+    description: "A visualization for Game of Thrones character network using D3js Force-Directed Graph",
+    image: "./got-viz.png",
+    link: "https://got-viz-qnn.netlify.app/",
+  },
+  {
     title: "Reddit Minimal",
     subtitle: "Redux & Reddit API",
     description:
