@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "Game of Thrones Character Network",
     subtitle: "React & D3js",
-    description: "A visualization for Game of Thrones character network using D3js Force-Directed Graph",
+    description: "A visualization for Game of Thrones character network using D3js Force-Directed Graph, where users can see the connection between the characters.",
     image: "./got-viz.png",
     link: "https://got-viz-qnn.netlify.app/",
   },
@@ -64,3 +64,25 @@ export const skills = [
   "Python Django",
   "MongoDB",
 ];
+export const events = [
+  {
+    time: "2021",
+    events: ["Quitting job at the restaurant, moving to Brest. Realizing that I still enjoy coding.", "Completing Front-End Engineer Course in order to revise knowledge and update new technologies.", "Working on personal projects to practice programming skills."],
+  },
+  {
+    time: "2019 - 2020",
+    events: ["Getting married and decided to work in a Japanese restaurant in order to take care of my family.", "Starting as a waitress then becoming a Team Manager of 5 people after 1 year."],
+  },
+  {
+    time: "2018",
+    events: ["Signing a Ph.D. contract with CEA Cadarache. However, it was canceled after 3 months due to the instructor's personal problems.", "Looking for a job in the field of Data Science in Grenoble but not successfully."],
+  },
+  {
+    time: "2017",
+    events: ["Returning to Grenoble for a master's degree in Data Science.", "Completing a 6-months internship at CEA Grenoble."],
+  },
+  {
+    time: "2016",
+    events: ["Coming to France for the first time and becoming an intern at LIGLAB-Grenoble INP.", "After 6 months, returning to Hanoi to graduate from the IT Engineering program."],
+  }
+]
