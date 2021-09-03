@@ -18,7 +18,7 @@ export const AboutMe = () => {
               {index % 2 !== 1 && (
                 <div className="flex flex-row items-center gap-4">
                   <BookmarkIcon
-                    className="text-yellow-300 w-8 flex-shrink-0"
+                    className="text-yellow-300 w-8"
                     id={`flag${index}`}
                   />
                   <h3 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
@@ -29,7 +29,7 @@ export const AboutMe = () => {
               {index % 2 === 1 && (
                 <div className="flex flex-row-reverse items-center gap-4 ">
                   <BookmarkIcon
-                    className="text-yellow-300 w-8 flex-shrink-0"
+                    className="text-yellow-300 w-8"
                     id={`flag${index}`}
                   />
                   <h3 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
@@ -37,7 +37,7 @@ export const AboutMe = () => {
                   </h3>
                 </div>
               )}
-              <div className="max-w-xl flex flex-col items-start gap-1 border-4 border-gray-700 bg-gray-900 px-8 py-8 relative w-full">
+              <div className="max-w-xl flex flex-col items-start gap-1 border-4 border-gray-700 bg-gray-900 px-8 py-8 relative w-full text-justify">
                 {item.events.map((event) => {
                   return <p>{event}</p>;
                 })}
