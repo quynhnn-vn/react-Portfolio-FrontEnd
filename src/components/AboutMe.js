@@ -1,7 +1,7 @@
 import React from "react";
 import { events } from "../data";
 import { FingerPrintIcon } from "@heroicons/react/solid";
-import { FlagIcon } from "@heroicons/react/outline";
+import { BookmarkIcon } from "@heroicons/react/outline";
 import Xarrow from "react-xarrows";
 
 export const AboutMe = () => {
@@ -16,8 +16,8 @@ export const AboutMe = () => {
           return (
             <div className="flex items-center gap-6">
               {index % 2 !== 1 && (
-                <div className="flex flex-row gap-4">
-                  <FlagIcon className="w-10" id={`flag${index}`} />
+                <div className="flex flex-row items-center gap-4">
+                  <BookmarkIcon className="text-yellow-300 w-8 flex-shrink-0" id={`flag${index}`} />
                   <h3 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
                     {item.time}
                   </h3>
@@ -25,7 +25,7 @@ export const AboutMe = () => {
               )}
               {index % 2 === 1 && (
                 <div className="flex flex-row-reverse items-center gap-4 ">
-                  <FlagIcon className="w-10" id={`flag${index}`} />
+                  <BookmarkIcon className="text-yellow-300 w-8 flex-shrink-0" id={`flag${index}`} />
                   <h3 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
                     {item.time}
                   </h3>

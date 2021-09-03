@@ -57,12 +57,12 @@ export const projects = [
 ];
 
 export const skills = [
-  "HTML/CSS",
-  "JavaScript/jQuery",
-  "React/Redux",
-  "Tailwind CSS",
+  "JavaScript/ jQuery",
+  "React/ Redux",
+  "Sass/ Bootstrap",
+  "Tailwind/ MaterialUI",
+  "GraphQL",
   "Python Django",
-  "MongoDB",
 ];
 export const events = [
   {
