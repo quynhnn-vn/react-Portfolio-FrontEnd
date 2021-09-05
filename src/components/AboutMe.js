@@ -8,7 +8,7 @@ export const AboutMe = () => {
   return (
     <div id="about" className="p-10 bg-gray-800">
       <FingerPrintIcon className="mx-auto text-center w-10 mb-4" />
-      <h1 className="sm:text-4xl text-center text-3xl font-medium title-font mb-12 text-white">
+      <h1 className="sm:text-4xl text-center text-3xl font-medium title-font mb-8 text-white">
         About Me
       </h1>
       <div className="flex flex-col items-center gap-6">

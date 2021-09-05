@@ -19,6 +19,7 @@ export function Projects() {
               key={project.image}
               className="sm:w-1/2 w-full p-4"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="flex relative">
                 <img

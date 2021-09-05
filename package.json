@@ -8,14 +8,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-pdf": "^5.3.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
     "react-xarrows": "^2.0.2"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "audit:fix": "npx yarn-audit-fix"
   },
   "eslintConfig": {
     "extends": [
@@ -26,6 +27,19 @@
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "yarn-audit-fix": "^6.4.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
