@@ -27,7 +27,7 @@ export const AboutMe = () => {
                 </div>
               )}
               {index % 2 === 1 && (
-                <div className="flex flex-row-reverse items-center gap-4 ">
+                <div className="flex flex-row sm:flex-row-reverse items-center gap-4 ">
                   <BookmarkIcon
                     className="text-yellow-300 w-8"
                     id={`flag${index}`}

@@ -15,13 +15,13 @@ export const About = () => {
           <div className="flex justify-center">
             <a
               href="#projects"
-              className="inline-flex text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-300 hover:text-black rounded text-lg"
+              className="inline-flex text-black bg-yellow-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
               See My Past Work
             </a>
             <a
               href="#about"
-              className="ml-4 inline-flex text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-300 hover:text-black rounded text-lg"
+              className="ml-4 inline-flex text-black bg-yellow-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
               About Me
             </a>
