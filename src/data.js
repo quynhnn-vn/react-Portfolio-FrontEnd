@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Francovery",
+    subtitle: "React & GraphQL Apollo Server",
+    description:
+      "A website created for foreigners who want to learn about France, especially about administrative divisions.",
+    image: "./francovery.png",
+    link: "https://francovery-qnn.netlify.app/",
+  },
+  {
     title: "Make Your Meal",
     subtitle: "React Router & Spoonacular API",
     description:
