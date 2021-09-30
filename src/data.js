@@ -3,8 +3,8 @@ export const projects = [
     title: "Francovery",
     subtitle: "React & GraphQL Apollo Server",
     description:
-      "A website created about administrative divisions of France. Users can view basic infos, weather conditions, relevant news and photos taken at the locations.",
-    image: "./francovery.PNG",
+      "A website about France's administrative divisions. Users can view basic infos of locations, weather conditions, relevant news and photos taken at the locations.",
+    image: "./francovery.png",
     link: "https://francovery-qnn.netlify.app/",
   },
   {
