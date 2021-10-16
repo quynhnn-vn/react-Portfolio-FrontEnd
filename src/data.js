@@ -18,7 +18,8 @@ export const projects = [
   {
     title: "Game of Thrones Character Network",
     subtitle: "React & D3js",
-    description: "A visualization for Game of Thrones character network using D3js Force-Directed Graph, where users can see the connection between the characters.",
+    description:
+      "A visualization for Game of Thrones character network using D3js Force-Directed Graph, where users can see the connection between the characters.",
     image: "./got-viz.png",
     link: "https://got-viz-qnn.netlify.app/",
   },
@@ -65,32 +66,56 @@ export const projects = [
 ];
 
 export const skills = [
+  "HTML5/ CSS3",
   "JavaScript/ jQuery",
   "React/ Redux",
   "Sass/ Bootstrap",
   "Tailwind/ MaterialUI",
-  "GraphQL",
+  "GraphQL Apollo",
   "Python Django",
+  "PHP/ Wordpress",
 ];
 export const events = [
   {
     time: "2016",
-    events: ["Coming to France for the first time and becoming an intern at LIGLAB-Grenoble INP.", "After 6 months, returning to Hanoi to graduate from the IT Engineering program."],
+    events: [
+      "Coming to France for the first time and becoming an intern at LIGLAB-Grenoble INP.",
+      "After 6 months, returning to Hanoi to graduate from the IT Engineering program.",
+    ],
   },
   {
     time: "2017",
-    events: ["Returning to France for a master's degree, completing a 6-months internship at CEA Grenoble.", "Graduate from the Master of Science in Informatics at Grenoble in Data Science."],
+    events: [
+      "Returning to France for a master's degree, completing a 6-months internship at CEA Grenoble.",
+      "Graduate from the Master of Science in Informatics at Grenoble in Data Science.",
+    ],
   },
   {
     time: "2018",
-    events: ["Signing a Ph.D. contract with CEA Cadarache. However, it was canceled after 3 months due to the instructor's personal problems.", "Looking for a job in the field of Data Science in Grenoble but not successfully."],
+    events: [
+      "Signing a Ph.D. contract with CEA Cadarache. However, it was canceled after 3 months due to the instructor's personal problems.",
+      "Looking for a job in the field of Data Science in Grenoble but not successfully.",
+    ],
   },
   {
     time: "2019",
-    events: ["Getting married and decided to work in a Japanese restaurant in order to take care of my family.", "Starting as a waitress then becoming a Team Manager of 5 people after 1 year."],
+    events: [
+      "Getting married and decided to work in a Japanese restaurant in order to take care of my family.",
+      "Starting as a waitress then becoming a Team Manager of 5 people after 1 year.",
+    ],
+  },
+  {
+    time: "2020",
+    events: [
+      "Quitting job at the restaurant, moving to Brest. Realizing that I still enjoy coding.",
+      "Completing Front-End Engineer Course in order to revise knowledge and update new technologies.",
+    ],
   },
   {
     time: "2021",
-    events: ["Quitting job at the restaurant, moving to Brest. Realizing that I still enjoy coding.", "Completing Front-End Engineer Course in order to revise knowledge and update new technologies.", "Working on personal projects to practice programming skills."],
+    events: [
+      "Working on freelance and personal projects to practice Front-End programming skills.",
+      "Continuing learning about Back-End programming. Looking for a word-study contract as a Full-Stack developer",
+    ],
   },
-]
+];

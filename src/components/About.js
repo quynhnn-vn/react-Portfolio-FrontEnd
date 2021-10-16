@@ -9,7 +9,9 @@ export const About = () => {
             Hi, my name is Quynh.
             <br className="hidden lg:inline-block" />
             <br />
-            I'm a front end developer from Brest, Brittany.
+            I'm a web developer
+            <br />
+            from Orsay, Ile-de-France.
             <br />
           </h1>
           <div className="flex justify-center">
