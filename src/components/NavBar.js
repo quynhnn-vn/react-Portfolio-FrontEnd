@@ -1,5 +1,4 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
-import CV from "../CV-NhuQuynhNGUYEN.pdf";
 import React from "react";
 
 export function NavBar() {
@@ -18,9 +17,6 @@ export function NavBar() {
           </a>
           <a href="#skills" className="mr-5 text-lg hover:text-gray-400">
             Skills
-          </a>
-          <a href={CV} target="pdf-frame" className="mr-5 text-lg hover:text-gray-400">
-            CV
           </a>
           <a href="https://github.com/quynhnn-vn/" target="_blank" rel="noopener noreferrer" className="mr-5 text-lg hover:text-gray-400">
             GitHub
