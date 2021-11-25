@@ -39,7 +39,7 @@ export function Contact() {
                 className="text-yellow-300 leading-relaxed"
                 href="mailto:nguyen.nhu.quynh.1993@gmail.com"
               >
-                nnquynh.0111@gmail.com
+                nguyen.nhu.quynh.1993@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
