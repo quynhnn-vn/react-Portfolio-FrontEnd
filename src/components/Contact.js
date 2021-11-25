@@ -37,14 +37,14 @@ export function Contact() {
               </h2>
               <a
                 className="text-yellow-300 leading-relaxed"
-                href="mailto:nnquynh.0111@gmail.com"
+                href="mailto:nguyen.nhu.quynh.1993@gmail.com"
               >
                 nnquynh.0111@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">+33 7 68 91 51 59</p>
+              <p className="leading-relaxed">+33 7 68 91 ** **</p>
             </div>
           </div>
         </div>
