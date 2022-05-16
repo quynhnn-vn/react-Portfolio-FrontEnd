@@ -72,8 +72,8 @@ export const skills = [
   "Sass/ Bootstrap",
   "Tailwind/ MaterialUI",
   "GraphQL Apollo",
+  "TypeScript",
   "Python Django",
-  "PHP/ Wordpress",
 ];
 export const events = [
   {
@@ -101,7 +101,7 @@ export const events = [
     time: "2019",
     events: [
       "Getting married and decided to work in a Japanese restaurant in order to take care of my family.",
-      "Starting as a waitress then becoming a Team Manager of 5 people after 1 year.",
+      "Starting as a waitress then becoming a Team Manager of 5 people after 6 months.",
     ],
   },
   {
@@ -115,7 +115,14 @@ export const events = [
     time: "2021",
     events: [
       "Working on freelance and personal projects to practice Front-End programming skills.",
-      "Continuing learning about Back-End programming. Looking for a word-study contract as a Full-Stack developer",
+      "Starting a word-study contract as a Front-End developer at Swappy.",
+    ],
+  },
+  {
+    time: "2022",
+    events: [
+      "Improving my programming skills in ReactJS - Redux, learning new technologies like NextJs, TypeScript...",
+      "Become the responsible developer for the design, development and maintenance of user interfaces.",
     ],
   },
 ];

@@ -11,7 +11,7 @@ export const About = () => {
             <br />
             I'm a web developer
             <br />
-            from Orsay, Ile-de-France.
+            from Antony, Ile-de-France.
             <br />
           </h1>
           <div className="flex justify-center">

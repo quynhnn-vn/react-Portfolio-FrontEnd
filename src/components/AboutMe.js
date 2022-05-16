@@ -87,6 +87,14 @@ export const AboutMe = () => {
         dashness
         showHead={false}
       />
+      <Xarrow
+        start="flag5"
+        end="flag6"
+        color="gray"
+        strokeWidth="3"
+        dashness
+        showHead={false}
+      />
     </div>
   );
 };
